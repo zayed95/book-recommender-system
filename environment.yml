@@ -1,0 +1,19 @@
+name: book-recommender-system
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - ruff
+  - pytest
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
